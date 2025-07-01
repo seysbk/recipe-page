@@ -1,0 +1,145 @@
+* {
+    background-color: var(--stone-100);
+    font-family: Young Serif, Outfit, sans-serif;
+}
+
+:root{
+    --white: hsl(0, 0%, 100%);
+    --stone-100: hsl(30, 54%, 90%);
+    --stone-150: hsl(30, 18%, 87%);
+    --stone-600: hsl(30, 10%, 34%);
+    --stone-900: hsl(24, 5%, 18%);
+    --brown-800: hsl(14, 45%, 36%);
+    --rose-800: hsl(332, 51%, 32%);
+    --rose-50: hsl(330, 100%, 98%);
+}
+
+.container {
+    border-radius: 16px;
+    width: 50%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: var(--white);
+    padding: 2rem;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+h1 {
+    background-color: var(--white);
+    color: var(--stone-900);
+}
+
+p {
+    background-color: var(--white);
+    font-size: 1rem;
+}
+
+h3 {
+    color: var(--rose-800);
+    background-color: var(--rose-50);
+    margin: 0;
+}
+
+.preparation {
+    background-color: var(--rose-50);
+    padding: 1rem 1rem 1rem 2rem;
+    border-radius: 8px;
+    line-height: 2;
+}
+
+.preparation li {
+    background-color: var(--rose-50);
+
+}
+
+.preparation ul {
+    background-color: var(--rose-50);
+}
+
+.preparation b{
+    background-color: var(--rose-50);
+}
+
+.time li::marker {
+    color: var(--rose-800);
+}
+
+
+ul{
+    padding-left: 20px;
+    margin-top: 0;
+}
+
+
+
+h2 {
+    background-color: var(--white);
+    color: var(--brown-800);
+}
+
+.ingredients, ul, li{
+    background-color: var(--white);
+}
+
+.ingredients li::marker {
+    color: var(--brown-800);
+}
+
+.instructions {
+    background-color: var(--white);
+    line-height: 2;
+}
+
+.instructions li::marker {
+    color: var(--brown-800);
+}
+
+ol{
+    padding-left: 20px;
+    margin-top: 0;
+}
+
+ol >* {
+    background-color: var(--white);
+
+}
+
+.table {
+    background-color: var(--white);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 30px;
+}
+
+b {
+    background-color: var(--white);
+}
+
+strong {
+    background-color: var(--white);
+    color: var(--brown-800);
+}
+
+hr {
+    border: 1px solid var(--stone-150);
+    border-bottom: none;
+}
+
+@media screen and (max-width:375px) {
+    .container{
+        padding: .5rem;
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    img {
+        border-radius: 0;
+        margin: 0;
+    }
+}
